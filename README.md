@@ -1,7 +1,7 @@
 # Fullstack with Docker
 
 Ce dépôt contient le code source relatif à l'épisode 21 de notre chaîne [inpulse.tv](https://www.inpulse.tv) dédié à la dockerisation et au déploiement d'image docker :
-- [  - [Docker partie.2]]()
+- [CONTENEURISE ton APP avec DOCKER - #2](https://www.youtube.com/watch?v=MIxyr43FmIU)
 
 Il contient le code source permettant de réaliser et suivre le tutoriel de la vidéo.
 
