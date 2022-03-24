@@ -1,6 +1,6 @@
 # Fullstack with Docker
 
-Ce dépôt contient le code source relatif à l'épisode 20 de notre chaîne [inpulse.tv](https://www.inpulse.tv) dédié à la dokcerisation et au déploiement d'image docker :
+Ce dépôt contient le code source relatif à l'épisode 21 de notre chaîne [inpulse.tv](https://www.inpulse.tv) dédié à la dockerisation et au déploiement d'image docker :
 - [  - [Docker partie.2]]()
 
 Il contient le code source permettant de réaliser et suivre le tutoriel de la vidéo.
@@ -20,7 +20,7 @@ Pour lancer toutes les images nécessaire de la stack :
 docker compose -f docker-compose.build.yml up -d
 ```
 
-Ce projet utilise comme source de données la base **mysql**. Le dump `dump.sql` contient le jeu de donées pour l'application 
+Ce projet utilise comme source de données la base **mysql**. Le dump `dump.sql` contient le jeu de données pour l'application 
 
 Pour importer les données : 
 ```bash

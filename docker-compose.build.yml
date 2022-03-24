@@ -25,7 +25,9 @@ services:
       - pouletmayo
 
   backend:
-    build: ./backend
+    build:
+      context: backend
+      dockerfile: Dockerfile
     deploy:
       replicas: 1
     environment: 
@@ -34,12 +36,14 @@ services:
       - PouletMayo_Db__Password=password
       - PouletMayo_Db__Database=pouletmayo
     ports:
-      - 8000:80
+      - 8000:8000
     networks: 
       - pouletmayo
 
   frontend:
-    build: ./frontend
+    build:
+      context: frontend
+      dockerfile: Dockerfile
     deploy:
       replicas: 1
     ports:
