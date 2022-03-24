@@ -9,11 +9,13 @@ Le contenu se partage en deux projets contenant chacun un Dockerfile:
 - Un dossier ``backend`` proposant une API sous .NET 
 - Un dossier ``frontend`` contenant une application Web basée sur celle proposée depuis le site [sandwichpouletmayonnaise.com](https://sandwichpouletmayonnaise.com/)
 
+Vous trouverez aussi deux fichiers `compose` pour pouvoir démarrer l'ensemble des conteneurs nécessaires
+
 Pour comprendre le contenu de chaque projet il vous suffit de suivre les instructions de l'épisode sur notre chaîne [inpulse.tv](https://www.inpulse.tv).
 
 ## Installation
 
-> Docker doit etre installer pour poursuivre l'installation 
+> Docker doit etre installer pour poursuivre l'installation []()
 
 Pour lancer toutes les images nécessaire de la stack : 
 ```bash
